@@ -30,3 +30,6 @@ ehthumbs.db
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#Estructura atomica
+diseno_atomico.txt
