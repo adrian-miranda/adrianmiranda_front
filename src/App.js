@@ -1,6 +1,7 @@
 import './App.css';
-import Logo from './components/atoms/ImagenDeFondo/ImagenDeFondo';
+// import Logo from './components/atoms/ImagenDeFondo/ImagenDeFondo';
 import Suspense from './components/atoms/TituloSuspense/Suspense';
+import { OpcionMenu } from './components/atoms/OpcionMenu';
 
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Suspense />
-        <Logo nombre = {Logo}/>
+        {/* <Logo nombre = {Logo}/> */}
+        <OpcionMenu/>
       </header>
     </div>
   );
