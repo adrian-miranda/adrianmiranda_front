@@ -1,4 +1,4 @@
 {
-    "llave" : "valor" ,
-    "otra_llave" : "otro valor"
+    "llave" : ["valor1" , "valor2"],
+    "otra_llave" :  ["otra_llave2"]
 }
