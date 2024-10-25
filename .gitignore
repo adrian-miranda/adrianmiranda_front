@@ -31,5 +31,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-#Estructura atomica
+#Estructura atomica y codigo de apoyo
 diseno_atomico.txt
+cod_de_apoyo.txt

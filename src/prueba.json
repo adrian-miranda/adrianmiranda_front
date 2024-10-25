@@ -1,4 +1,12 @@
-{
-    "llave" : ["valor1" , "valor2"],
-    "otra_llave" :  ["otra_llave2"]
-}
+[
+    {
+        "llave" : [1 , 2 , 3]        
+    },
+    {
+        "llave" : [2 , 4 , 6],
+        "perro" : {
+            "hola" : "chao",
+            "dia" : "noche"
+        } 
+    }
+]
