@@ -9,10 +9,17 @@ export const OpcionMenu = () => {
     useEffect(()=>{
         const obtenerPersonas = async ()=>{
             const url = 'http://127.0.0.1:8000/api/personas/';
-            const response = await axios.get(url)
-            setPersonas(response.data)
+            try{
+                const response = await axios.get(url)
+                console.log(response.data)
+                setPersonas(response.data)
+            }catch (error){
+                console.error("El error es: ", error)
+            }
         }
         obtenerPersonas()
+        // const intervalId = setInterval(obtenerPersonas, 5000); // Llamar cada 5 segundos
+        // return () => clearInterval(intervalId); 
     },[]);
     
     return (
