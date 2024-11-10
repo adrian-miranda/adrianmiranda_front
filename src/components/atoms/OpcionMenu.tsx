@@ -13,9 +13,11 @@ export const OpcionMenu: React.FC = () => {
     return (
         <div>
             <ul>
-                {personas.length > 0 ? personas.map((persona) => (
+                {
+                personas.length > 0 ? personas.map((persona) => (
                     <li key={persona.id}>{persona.apellido_paterno}</li>
-                )) : 'no hay data'}
+                )) : 'no hay data'
+                }
             </ul>
         </div>
     );
