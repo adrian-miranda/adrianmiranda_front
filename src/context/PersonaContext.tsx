@@ -13,7 +13,7 @@ interface PersonasContextType {
     personas: Persona[];
 }
 
-export const PersonasContext = createContext<PersonasContextType | undefined>(undefined);
+export const  PersonasContext = createContext<PersonasContextType | undefined>(undefined);
 
 export const PersonasProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
     const [personas, setPersonas] = useState<Persona[]>([]);
