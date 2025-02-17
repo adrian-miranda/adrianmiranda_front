@@ -1,5 +1,6 @@
 .item{
     font-size: 50px;
-    margin: 20px;
     text-align: center;
+    border: solid 2px pink;
+    background-color: orangered;
 }

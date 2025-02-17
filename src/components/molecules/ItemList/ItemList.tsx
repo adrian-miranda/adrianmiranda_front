@@ -4,6 +4,7 @@ import style from './itemList.module.css'
 
 import elJason from './opciones.json'
 console.log(elJason)
+
 export const ItemList = () => {
   return (
     <div className={style.itemList}>
