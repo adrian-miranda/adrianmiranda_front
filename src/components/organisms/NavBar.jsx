@@ -6,7 +6,7 @@ import style from './navbar.module.css'
 
 const NavBar = () => {
 return (
-    <div className={`bg-blue-500 p-4 ${style.ancho}`}>
+    <div className={`bg-slate-900 p-4 ${style.ancho}`}>
         <Logo/>
         <ItemList/>
     </div>
