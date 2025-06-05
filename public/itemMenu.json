@@ -1,0 +1,29 @@
+[   
+    {   
+        "id" : 1,
+        "seccion" : "Hero"
+    },
+    {
+        "id" : 2,
+        "seccion" : "About"
+    },
+    {
+        "id" : 3,
+        "seccion" : "Services"
+    },
+    {
+        "id" : 4,
+        "seccion" : "Portfolio"
+    },
+    {
+        "id" : 5,
+        "seccion" : "Download CV"
+    },
+    {
+        "id" : 6,
+        "seccion" : "Blog"
+    },
+    {   "id" : 7,
+        "seccion" : "Contact"
+    }
+]
