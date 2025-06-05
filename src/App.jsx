@@ -1,18 +1,20 @@
-import './App.css'
-import NavBar from './components/organisms/NavBar'
-import "tailwindcss"
+// import './App.css'
+//import NavBar from './components/organisms/NavBar'
+
+import PruebaDark from "./components/PruebaDark"
+import { ThemeProvider } from "./context/ThemeContext";
+import ThemeSwitch from "./components/atoms/ThemeSwitch/ThemeSwitch.jsx"
+
 function App() {
   
   return (
     <>
-      <NavBar/>
-      <br />
-      <br />
-      <br />
-      
-      <h1 className="text-3xl font-bold underline">La Web de Adrian</h1>
+      <ThemeProvider>
+        <ThemeSwitch />
+        <PruebaDark />
+      </ThemeProvider>
     </>
   )
 }
 
-export default App
+export default App;
