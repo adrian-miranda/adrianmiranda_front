@@ -7,18 +7,6 @@ const ItemList = () => {
 
 const [Items , SetItem] = useState([]);
 
-/*useEffect(()=>{
-    const fetchItemMenu = async ()=>{
-        const response = await fetch("/itemMenu.json");
-        const data = await response.json(); 
-        SetItem(data)
-        console.log(data)
-        console.log("adrian")
-    }
-    fetchItemMenu();
-
-} , [])*/
-
 useEffect(()=>{
     const fetchItemMenu = async ()=>{
         const response = await axios.get("/itemMenu.json");
